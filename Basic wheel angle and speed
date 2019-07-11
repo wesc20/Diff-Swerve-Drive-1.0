@@ -1,0 +1,11 @@
+{
+  /**
+    * L = Need length of robot
+    * W = Width of robot
+    * A = Desired Angle of Robot
+    * Vx = X component of vector of desired direction of movement
+    * Vy = Y component of vector of desired direction of movement
+    * R = Distance from center of robot to center of a wheel{sprt(L/2^2 + W/2^2)}
+  */ 
+ int HL = L/2;
+ int HW = W/2;
