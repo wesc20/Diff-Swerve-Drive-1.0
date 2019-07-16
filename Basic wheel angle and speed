@@ -1,4 +1,7 @@
+import java.lang.Math;
+public class DiffSwerve
 {
+  
   /**
     * L = Need length of robot
     * W = Width of robot
@@ -7,5 +10,12 @@
     * Vy = Y component of vector of desired direction of movement
     * R = Distance from center of robot to center of a wheel{sprt(L/2^2 + W/2^2)}
   */ 
- int HL = L/2;
- int HW = W/2;
+ private double lengthOfRobot = 0;
+ private double widthOfRobot = 0;
+ private int desiredAngle = 0;
+ private int xComp = 0;
+ private int yComp = 0;
+ private double halfLength = lengthOfRobot/2;
+ private double halfWidth = widthOfRobot/2;
+ private double r = Math.sqrt((Math.pow(halfLength, 2)) + (Math.pow(halfWidth, 2)));
+
